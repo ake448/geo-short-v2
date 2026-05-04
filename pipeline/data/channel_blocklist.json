@@ -1,0 +1,10 @@
+{
+  "blocked_channel_ids": [
+    "DroneLM"
+  ],
+  "blocked_patterns": [
+    "drone pilots",
+    "pilot meetup",
+    "drone team"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "out_w": 1080,
+  "out_h": 1920,
+  "fps": 30,
+  "intro_duration": 0.6,
+  "frame_count": 18,
+  "border_color": [
+    255,
+    215,
+    0
+  ],
+  "border_width": 10,
+  "watermark_height": 100,
+  "watermark_opacity": 0.65
+}

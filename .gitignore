@@ -1,0 +1,25 @@
+__pycache__/
+*.pyc
+*.pyo
+.env
+.env.*
+
+# Cached tiles and run output
+pipeline/data/tiles/
+pipeline/data/wiki_images/
+runs/
+output/
+cache/
+
+# Temp files
+*.part
+*.tmp
+_tmp_*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

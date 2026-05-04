@@ -1,0 +1,286 @@
+{
+    "version": 3,
+    "generated": "2026-04-17",
+    "kinds": {
+        "street_level": {
+            "description": "Walking tours, POV street footage, no talking heads. 4K steady-cam.",
+            "channels": [
+                {
+                    "name": "ProWalk Tours",
+                    "handle": "@ProwalkTours",
+                    "id": "UCNzul4dnciIlDg8BAcn5-cQ"
+                },
+                {
+                    "name": "Watched Walker",
+                    "handle": "@WatchedWalker",
+                    "id": "UC_mzz_JnzArhhpGUy8KdGwg"
+                },
+                {
+                    "name": "Rambalac",
+                    "handle": "@Rambalac",
+                    "id": "UCAo_i-xGfuhrcVtdjFbbJhA"
+                },
+                {
+                    "name": "Nomadic Ambience",
+                    "handle": "@NomadicAmbience",
+                    "id": "UCqRTj-Nu_8to3jIBlXptOtA"
+                },
+                {
+                    "name": "4K World Wandering",
+                    "handle": "@4KWorldWandering",
+                    "id": "UCiVH7ncT6ghUKvSpY_e0DNQ"
+                },
+                {
+                    "name": "NipponWanderingTV",
+                    "handle": "@NipponWanderingTV",
+                    "id": "UCIDTgYVs-rEHx-fE4qSPZhQ"
+                },
+                {
+                    "name": "ActionKid",
+                    "handle": "@ActionKid",
+                    "id": "UCBkcw8h7epT_bK0QzuY2Bmg"
+                },
+                {
+                    "name": "One Man Wolf Pack",
+                    "handle": "@OneManWolfPack",
+                    "id": "UCKQVSNdzGBJSXaUmS4TOWww"
+                },
+                {
+                    "name": "V Walk",
+                    "handle": "@V_Walk",
+                    "id": "UC1y3Uh_y2tYSFcPhFKYBCGQ"
+                },
+                {
+                    "name": "Relaxing WALKER",
+                    "handle": "@RelaxingWALKER",
+                    "id": "UCIrXLOYQwxnh5WuaDyHw06A"
+                },
+                {
+                    "name": "Virtual Japan",
+                    "handle": "@VirtualJapan",
+                    "id": "UCMTv_Dg1BXFUglzWIIincpQ"
+                },
+                {
+                    "name": "Walking Tours",
+                    "handle": "@wt",
+                    "id": "UCpVHBbiSDNNN36y7CHfaBpQ"
+                },
+                {
+                    "name": "Wanderlust Travel Videos",
+                    "handle": "@WanderlustTravelVideos",
+                    "id": "UCWezWFL4iVDnqqj77UnJ1fQ"
+                },
+                {
+                    "name": "POPtravel",
+                    "handle": "@POPtravel",
+                    "id": "UCKA1G8v6q03i-zB8ZEdyFqg"
+                },
+                {
+                    "name": "Walk East",
+                    "handle": "@WalkEast",
+                    "id": "UCip2HiAmspOVMeh0yxMcEaA"
+                },
+                {
+                    "name": "Stroll and Relax",
+                    "handle": "@StrollandRelax",
+                    "id": "UC5ejqyA8YSHdSAqiZQY4DKw"
+                },
+                {
+                    "name": "4K Walk",
+                    "handle": "@4KWalk",
+                    "id": "UC0TqihOw3aHbHDi-EWBfFeA"
+                }
+            ],
+            "search_templates": [
+                "{place} street level 4k -news -interview",
+                "{place} neighborhood walking 4k -vlog",
+                "{place} street pov 4k -nice -paris -miami",
+                "{place} {region} street architecture"
+            ]
+        },
+        "drone_aerial": {
+            "description": "Drone and aerial cinematography. 4K, no narration.",
+            "channels": [
+                {
+                    "name": "Timestorm Films",
+                    "handle": "@TimestormFilms",
+                    "id": "UCqOecsBLULnuUtls0tISTCw"
+                },
+                {
+                    "name": "Amazing Places on Our Planet",
+                    "handle": "@milosh9k",
+                    "id": "UCYWJ32GJbOgtzU2uHh0OMCQ"
+                },
+                {
+                    "name": "DroneSnap",
+                    "handle": "@DroneSnap",
+                    "id": "UCbDH6Ga-wuaam2IHqAxm3hg"
+                },
+                {
+                    "name": "4K Urban Life",
+                    "handle": "@4kUrbanLife",
+                    "id": "UCQ-JKqNo_T0yoeDZff1y7Kw"
+                },
+                {
+                    "name": "Beautiful Washington",
+                    "handle": "@BeautifulWashington",
+                    "id": "UCg72Hd6UZAgPBAUZplnmPMQ"
+                },
+                {
+                    "name": "Epic Drone Shots",
+                    "handle": "@EpicDroneShots",
+                    "id": "UCgvt8ooSkDcjmKX7cQ-3ULQ"
+                }
+            ],
+            "search_templates": [
+                "{place} 4k drone aerial -vlog",
+                "{place} cinematic aerial footage",
+                "{place} {region} bird's eye view 4k",
+                "aerial cinematic {place} landform"
+            ]
+        },
+        "landmark": {
+            "description": "Tight shots of specific landmarks. Travel cinematographers, no tour guides talking to camera.",
+            "channels": [
+                {
+                    "name": "Nature Relaxation Films",
+                    "handle": "@NatureRelaxation",
+                    "id": "UC4lp9Emg1ci8eo2eDkB-Tag"
+                },
+                {
+                    "name": "Green Renaissance",
+                    "handle": "@GreenRenaissance",
+                    "id": "UC0zBqtDZ8204xxv7d4aZv6w"
+                },
+                {
+                    "name": "Amazing Places on Our Planet",
+                    "handle": "@milosh9k",
+                    "id": "UCYWJ32GJbOgtzU2uHh0OMCQ"
+                },
+                {
+                    "name": "BBC Earth",
+                    "handle": "@bbcearth",
+                    "id": "UCwmZiChSryoWQCZMIQezgTg"
+                },
+                {
+                    "name": "National Geographic Wild",
+                    "handle": "@natgeowild",
+                    "id": "UCpVm7bg6pXKo1Pr6k5kxG9A"
+                },
+                {
+                    "name": "Discovery UK",
+                    "handle": "@DiscoveryUK",
+                    "id": "UC9cGX5x0_EXkdfmWlvPbu3g"
+                },
+                {
+                    "name": "Seeker",
+                    "handle": "@Seeker",
+                    "id": "UCBz6CWB62T6JeygIQHLv1jQ"
+                },
+                {
+                    "name": "Great Big Story",
+                    "handle": "@GreatBigStory",
+                    "id": "UCajXeitgFL-rb5-gXI-aG8Q"
+                },
+                {
+                    "name": "Beautiful Destinations",
+                    "handle": "@BeautifulDestinations",
+                    "id": "UC08NS8fyPpkYgnhj69fMXLg"
+                },
+                {
+                    "name": "Lonely Planet",
+                    "handle": "@lonelyplanet",
+                    "id": "UCPsil91i8gN0XLIbwl3vqsw"
+                },
+                {
+                    "name": "Jacob + Katie Schwarz",
+                    "handle": "@jacobandkatieschwarz",
+                    "id": "UCDuqrpyF-U4-5Fd3xRmrLng"
+                },
+                {
+                    "name": "Kraig Adams",
+                    "handle": "@KraigAdams",
+                    "id": "UCpnuadQ_w3r6f4Q_NRlqd-w"
+                },
+                {
+                    "name": "Sam Kolder",
+                    "handle": "@samkolder",
+                    "id": "UC_tXKhJlqZrgr_qdhEKmrDQ"
+                }
+            ],
+            "search_templates": [
+                "{subject} {place} {region} 4k cinematic",
+                "{subject} {place} {region} landmark b-roll -vlog",
+                "{subject} {place} {region} architectural detail 4k"
+            ]
+        }
+    },
+    "explainers_reference_only": {
+        "description": "These channels are NEVER used as footage sources. Listed here only so the vision gate can recognize their watermarks and downgrade scores if they appear in collage form via Tier 2 search results.",
+        "channels": [
+            {
+                "name": "RealLifeLore",
+                "handle": "@RealLifeLore",
+                "id": "UCP5tjEmvPItGyLhmjdwP7Ww"
+            },
+            {
+                "name": "Wendover Productions",
+                "handle": "@Wendoverproductions",
+                "id": "UC9RM-iSvTu1uPJb8X5yp3EQ"
+            },
+            {
+                "name": "Atlas Pro",
+                "handle": "@AtlasPro",
+                "id": "UCz1oFxMrgrQ82-276UCOU9w"
+            },
+            {
+                "name": "Geo History",
+                "handle": "@GeoHistory",
+                "id": "UC2Cl2g2xFTZoAEldxYVzQFg"
+            },
+            {
+                "name": "Johnny Harris",
+                "handle": "@johnnyharris",
+                "id": "UCmGSJVG3mCRXVOP4yZrU1Dw"
+            },
+            {
+                "name": "PolyMatter",
+                "handle": "@PolyMatter",
+                "id": "UCgNg3vwj3xt7QOrcIDaHdFg"
+            },
+            {
+                "name": "Kurzgesagt",
+                "handle": "@kurzgesagt",
+                "id": "UCsXVk37bltHxD1rDPwtNM8Q"
+            },
+            {
+                "name": "Vox",
+                "handle": "@Vox",
+                "id": "UCLXo7UDZvByw2ixzpQCufnA"
+            },
+            {
+                "name": "Neo Explains",
+                "handle": "@neoexplains",
+                "id": "UCtYKe7-XbaDjpUwcU5x0bLg"
+            }
+        ]
+    },
+    "blocklist": [
+        {
+            "handle": "@TravelFactsAI",
+            "reason": "AI-generated slideshows, low effort"
+        },
+        {
+            "handle": "@GeoTriviaAI",
+            "reason": "Mass-produced AI quizzes"
+        },
+        {
+            "handle": "@WorldExplorerAI",
+            "reason": "Unverified AI facts and generic visuals"
+        },
+        {
+            "handle": "@AI_Global_Travel",
+            "reason": "Confirmed AI slop"
+        }
+    ]
+}

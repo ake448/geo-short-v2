@@ -1,0 +1,519 @@
+{
+  "33.7380, -84.3814": {
+    "name": "Antarctica",
+    "lat": -72.822042,
+    "lon": 0.0,
+    "bbox": [
+      -180.0,
+      -85.051129,
+      180.0,
+      -59.282851
+    ]
+  },
+  "Summerhill, Atlanta, GA": {
+    "name": "Summerhill, Atlanta, Georgia, United States",
+    "lat": 33.736828,
+    "lon": -84.38634,
+    "bbox": [
+      -84.392343,
+      33.731542,
+      -84.379856,
+      33.745185
+    ]
+  },
+  "Washington St SW & Richardson St SW, Atlanta, GA": {
+    "name": "Atlanta, Georgia, United States",
+    "lat": 33.750801,
+    "lon": -84.389855,
+    "bbox": [
+      -84.671084,
+      33.586924,
+      -84.243657,
+      33.918874
+    ]
+  },
+  "33.7365, -84.3850": {
+    "name": "Antarctica",
+    "lat": -72.822042,
+    "lon": 0.0,
+    "bbox": [
+      -180.0,
+      -85.051129,
+      180.0,
+      -59.282851
+    ]
+  },
+  "Atlanta, GA": {
+    "name": "Atlanta, Georgia, United States",
+    "lat": 33.750801,
+    "lon": -84.389855,
+    "bbox": [
+      -84.671084,
+      33.586924,
+      -84.243657,
+      33.918874
+    ]
+  },
+  "Bolivia": {
+    "name": "Bolivia",
+    "lat": -16.970662,
+    "lon": -64.269605,
+    "bbox": [
+      -69.644933,
+      -22.898092,
+      -57.449805,
+      -9.668651
+    ]
+  },
+  "Plaza Abaroa, La Paz": {
+    "name": "Calle Abaroa, El Alto, La Paz, Bolivia",
+    "lat": -16.520136,
+    "lon": -68.188097,
+    "bbox": [
+      -68.41756966333637,
+      -16.740136,
+      -67.95862433666363,
+      -16.300136000000002
+    ]
+  },
+  "South America": {
+    "name": "LeConte, Berkeley, California, United States",
+    "lat": 37.856186,
+    "lon": -122.2597,
+    "bbox": [
+      -122.265343,
+      37.850197,
+      -122.2556,
+      37.865128
+    ]
+  },
+  "Antofagasta, Chile": {
+    "name": "Antofagasta, Antofagasta, Chile",
+    "lat": -23.647984,
+    "lon": -70.39729,
+    "bbox": [
+      -70.654923,
+      -25.417856,
+      -68.06551,
+      -23.060366
+    ]
+  },
+  "Plaza Murillo, La Paz": {
+    "name": "Plaza Murillo, El Alto, La Paz, Bolivia",
+    "lat": -16.500434,
+    "lon": -68.217428,
+    "bbox": [
+      -68.44687727563448,
+      -16.720433999999997,
+      -67.98797872436552,
+      -16.280434
+    ]
+  },
+  "Haiti": {
+    "name": "Haiti",
+    "lat": 19.182436,
+    "lon": -72.434515,
+    "bbox": [
+      -74.579944,
+      17.928983,
+      -71.622559,
+      20.183004
+    ]
+  },
+  "Port-au-Prince, Haiti": {
+    "name": "Port au Prince, Ouest, Haiti",
+    "lat": 18.539766,
+    "lon": -72.33548,
+    "bbox": [
+      -72.37394,
+      18.496924,
+      -72.296092,
+      18.565903
+    ]
+  },
+  "Cite Soleil, Port-au-Prince, Haiti": {
+    "name": "Port au Prince, Ouest, Haiti",
+    "lat": 18.539766,
+    "lon": -72.33548,
+    "bbox": [
+      -72.37394,
+      18.496924,
+      -72.296092,
+      18.565903
+    ]
+  },
+  "Delmas, Port-au-Prince, Haiti": {
+    "name": "Port au Prince, Ouest, Haiti",
+    "lat": 18.539766,
+    "lon": -72.33548,
+    "bbox": [
+      -72.37394,
+      18.496924,
+      -72.296092,
+      18.565903
+    ]
+  },
+  "Fairlie-Poplar, Atlanta, GA": {
+    "name": "Atlanta, Georgia, United States",
+    "lat": 33.750801,
+    "lon": -84.389855,
+    "bbox": [
+      -84.671084,
+      33.586924,
+      -84.243657,
+      33.918874
+    ]
+  },
+  "Sweet Auburn, Atlanta, GA": {
+    "name": "Sweet Auburn, Atlanta, Georgia, United States",
+    "lat": 33.75436,
+    "lon": -84.37439,
+    "bbox": [
+      -84.383381,
+      33.748907,
+      -84.371032,
+      33.760636
+    ]
+  },
+  "Tochigi, Japan": {
+    "name": "栃木市, Tochigi, Japan",
+    "lat": 36.378525,
+    "lon": 139.73337,
+    "bbox": [
+      139.563915,
+      36.200311,
+      139.812656,
+      36.49764
+    ]
+  },
+  "Utsunomiya Station, Tochigi": {
+    "name": "栃木市, Tochigi, Japan",
+    "lat": 36.378525,
+    "lon": 139.73337,
+    "bbox": [
+      139.563915,
+      36.200311,
+      139.812656,
+      36.49764
+    ]
+  },
+  "Oyama, Tochigi": {
+    "name": "小山市, Tochigi, Japan",
+    "lat": 36.3141,
+    "lon": 139.80411,
+    "bbox": [
+      139.687238,
+      36.223388,
+      139.916028,
+      36.388508
+    ]
+  },
+  "Darien Gap, Panama": {
+    "name": "Darién, Panama",
+    "lat": 8.403818,
+    "lon": -78.141242,
+    "bbox": [
+      -78.544012,
+      7.156896,
+      -77.158575,
+      9.105202
+    ]
+  },
+  "Darien Gap": {
+    "name": "達仁鄉, Taitung County, Taiwan",
+    "lat": 22.294092,
+    "lon": 120.88298,
+    "bbox": [
+      120.743418,
+      22.229809,
+      120.942422,
+      22.508582
+    ]
+  },
+  "Margaritaville at Lanier Islands, GA": {
+    "name": "Lanier, Georgia, United States",
+    "lat": 32.129757,
+    "lon": -81.53698,
+    "bbox": [
+      -81.543516,
+      32.124219,
+      -81.530041,
+      32.13563
+    ]
+  },
+  "Lake Lanier, Georgia": {
+    "name": "Lake Lanier Drive Northwest, Duluth, Georgia 30097, United States",
+    "lat": 34.023171,
+    "lon": -84.1233,
+    "bbox": [
+      -84.38874037671035,
+      33.803171,
+      -83.85785962328966,
+      34.243171
+    ]
+  },
+  "Oscarville, Georgia": {
+    "name": "Oscarville, Gainesville, Georgia, United States",
+    "lat": 34.248398,
+    "lon": -83.97503,
+    "bbox": [
+      -83.981643,
+      34.242864,
+      -83.968168,
+      34.254002
+    ]
+  },
+  "Austin, TX": {
+    "name": "Austin, Texas, United States",
+    "lat": 30.268072,
+    "lon": -97.742806,
+    "bbox": [
+      -98.065361,
+      30.061613,
+      -97.541556,
+      30.519669
+    ]
+  },
+  "The Battery Atlanta, GA": {
+    "name": "The Battery, Duluth, Georgia 30096, United States",
+    "lat": 34.004247,
+    "lon": -84.178535,
+    "bbox": [
+      -84.44391621775998,
+      33.784247,
+      -83.91315378224002,
+      34.224247
+    ]
+  },
+  "North Georgia, USA": {
+    "name": "North Georgia Street, Pittsburg, Kansas 66762, United States",
+    "lat": 37.41369,
+    "lon": -94.718639,
+    "bbox": [
+      -94.99562308053679,
+      37.193690000000004,
+      -94.4416549194632,
+      37.63369
+    ]
+  },
+  "Budapest, Hungary": {
+    "name": "Budapest, Hungary",
+    "lat": 47.497879,
+    "lon": 19.040238,
+    "bbox": [
+      18.926022,
+      47.351513,
+      19.337013,
+      47.613228
+    ]
+  },
+  "Lake Lanier, GA": {
+    "name": "Lake Lanier Drive Northwest, Duluth, Georgia 30097, United States",
+    "lat": 34.023171,
+    "lon": -84.1233,
+    "bbox": [
+      -84.38874037671035,
+      33.803171,
+      -83.85785962328966,
+      34.243171
+    ]
+  },
+  "Oscarville, GA": {
+    "name": "Oscarville, Gainesville, Georgia, United States",
+    "lat": 34.248398,
+    "lon": -83.97503,
+    "bbox": [
+      -83.981643,
+      34.242864,
+      -83.968168,
+      34.254002
+    ]
+  },
+  "Oscarville, Georgia (submerged)": {
+    "name": "Oscarville, Gainesville, Georgia, United States",
+    "lat": 34.248398,
+    "lon": -83.97503,
+    "bbox": [
+      -83.981643,
+      34.242864,
+      -83.968168,
+      34.254002
+    ]
+  },
+  "Forsyth County, GA": {
+    "name": "Forsyth County, Georgia, United States",
+    "lat": 34.20697,
+    "lon": -84.13918,
+    "bbox": [
+      -84.258934,
+      34.050627,
+      -83.925529,
+      34.335171
+    ]
+  },
+  "Gainesville, GA": {
+    "name": "Gainesville, Georgia, United States",
+    "lat": 34.300253,
+    "lon": -83.82432,
+    "bbox": [
+      -84.0324,
+      34.163364,
+      -83.683315,
+      34.454398
+    ]
+  },
+  "Buford Dam, GA": {
+    "name": "Buford Dam Road, Buford, Georgia 30518, United States",
+    "lat": 34.147941,
+    "lon": -84.050399,
+    "bbox": [
+      -84.3162308122588,
+      33.927941000000004,
+      -83.7845671877412,
+      34.367941
+    ]
+  },
+  "Centralia, PA": {
+    "name": "Centralia, Pennsylvania, United States",
+    "lat": 40.806228,
+    "lon": -76.342548,
+    "bbox": [
+      -76.344001,
+      40.805894,
+      -76.341755,
+      40.806648
+    ]
+  },
+  "Hartwell Dam, GA": {
+    "name": "Dam Road, Hartwell, Georgia 30643, United States",
+    "lat": 34.34146,
+    "lon": -82.832528,
+    "bbox": [
+      -83.09897172490483,
+      34.12146,
+      -82.56608427509516,
+      34.56146
+    ]
+  },
+  "34.4690, -82.8840": {
+    "name": "Antarctica",
+    "lat": -72.822042,
+    "lon": 0.0,
+    "bbox": [
+      -180.0,
+      -85.051129,
+      180.0,
+      -59.282851
+    ]
+  },
+  "Lake Hartwell, SC": {
+    "name": "Lake Hartwell Drive, Florence, South Carolina 29501, United States",
+    "lat": 34.158292,
+    "lon": -79.88381,
+    "bbox": [
+      -80.14967439454058,
+      33.938292000000004,
+      -79.61794560545941,
+      34.378292
+    ]
+  },
+  "Fontana Lake, NC": {
+    "name": "Fontana Lake Drive, Bryson City, North Carolina 28713, United States",
+    "lat": 35.386164,
+    "lon": -83.538964,
+    "bbox": [
+      -83.80881402726894,
+      35.166164,
+      -83.26911397273108,
+      35.606164
+    ]
+  },
+  "New Echota, GA": {
+    "name": "New Echota Way, Woodstock, Georgia 30189, United States",
+    "lat": 34.114853,
+    "lon": -84.536155,
+    "bbox": [
+      -84.8018827714567,
+      33.894853,
+      -84.27042722854328,
+      34.334852999999995
+    ]
+  },
+  "Picher, OK": {
+    "name": "Picher, Oklahoma, United States",
+    "lat": 36.985272,
+    "lon": -94.830951,
+    "bbox": [
+      -94.84711,
+      36.972569,
+      -94.813369,
+      36.998811
+    ]
+  },
+  "Vozrozhdeniya Island": {
+    "name": "Cidade Ilha de Mocambique, Nampula, Mozambique",
+    "lat": -15.033279,
+    "lon": 40.737503,
+    "bbox": [
+      40.520232,
+      -15.128463,
+      40.814915,
+      -14.981722
+    ]
+  },
+  "Ocala, FL": {
+    "name": "Ocala, Florida, United States",
+    "lat": 29.187087,
+    "lon": -82.13696,
+    "bbox": [
+      -82.410908,
+      28.95741,
+      -81.904132,
+      29.337634
+    ]
+  },
+  "Florida, USA": {
+    "name": "Florida, United States",
+    "lat": 28.944465,
+    "lon": -82.03363,
+    "bbox": [
+      -87.634787,
+      24.430341,
+      -79.938023,
+      31.000966
+    ]
+  },
+  "Silver Springs, FL": {
+    "name": "Silver Springs, Florida, United States",
+    "lat": 29.216689,
+    "lon": -82.057852,
+    "bbox": [
+      -82.077895,
+      29.1316,
+      -81.579725,
+      29.339471
+    ]
+  },
+  "Washington, DC": {
+    "name": "Washington, District of Columbia, United States",
+    "lat": 38.90253,
+    "lon": -77.039386,
+    "bbox": [
+      -77.119759,
+      38.791645,
+      -76.909393,
+      38.995845
+    ]
+  },
+  "Wetumpka, AL": {
+    "name": "Wetumpka, Alabama, United States",
+    "lat": 32.537713,
+    "lon": -86.205698,
+    "bbox": [
+      -86.330764,
+      32.415768,
+      -86.044837,
+      32.740847
+    ]
+  }
+}

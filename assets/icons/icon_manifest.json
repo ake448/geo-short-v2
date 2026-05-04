@@ -1,0 +1,749 @@
+{
+  "schema_version": 1,
+  "generated_by": "tools/fetch_tabler_starter_icons.py",
+  "source_pack": "tabler",
+  "source_version": "3.39.0",
+  "license_source_url": "https://cdn.jsdelivr.net/npm/@tabler/icons@3.39.0/LICENSE",
+  "license": "MIT",
+  "license_file": "assets/icons/LICENSES/tabler-LICENSE.txt",
+  "render_policy": {
+    "runtime_network": false,
+    "allowed_styles": [
+      "outline"
+    ],
+    "unknown_icon_behavior": "log_warning_and_draw_placeholder",
+    "gemini_input": "semantic_keys_only"
+  },
+  "icons": {
+    "map": {
+      "source_pack": "tabler",
+      "source_version": "3.39.0",
+      "source_name": "map",
+      "source_url": "https://cdn.jsdelivr.net/npm/@tabler/icons@3.39.0/icons/outline/map.svg",
+      "source_path": "assets/icons/tabler/outline/map.svg",
+      "sha256": "5f87c563a70bf698720195e462f9835d2d2e5c8e00fa25cc0bc148a537bfa40b",
+      "license": "MIT",
+      "license_file": "assets/icons/LICENSES/tabler-LICENSE.txt",
+      "style": "outline",
+      "paint": "stroke",
+      "viewbox": "0 0 24 24",
+      "default_stroke_width": 2,
+      "aliases": [
+        "atlas",
+        "geography",
+        "region"
+      ],
+      "category": "map_geography",
+      "tags": [
+        "map",
+        "place",
+        "region"
+      ],
+      "status": "approved_starter"
+    },
+    "map_pin": {
+      "source_pack": "tabler",
+      "source_version": "3.39.0",
+      "source_name": "map-pin",
+      "source_url": "https://cdn.jsdelivr.net/npm/@tabler/icons@3.39.0/icons/outline/map-pin.svg",
+      "source_path": "assets/icons/tabler/outline/map-pin.svg",
+      "sha256": "20cc59bf4d6854dc49caf70f78398e4a1b9ba145d4416890c3bf370afebf3ca5",
+      "license": "MIT",
+      "license_file": "assets/icons/LICENSES/tabler-LICENSE.txt",
+      "style": "outline",
+      "paint": "stroke",
+      "viewbox": "0 0 24 24",
+      "default_stroke_width": 2,
+      "aliases": [
+        "pin",
+        "location",
+        "marker",
+        "place"
+      ],
+      "category": "map_geography",
+      "tags": [
+        "location",
+        "marker",
+        "place"
+      ],
+      "status": "approved_starter"
+    },
+    "globe": {
+      "source_pack": "tabler",
+      "source_version": "3.39.0",
+      "source_name": "world",
+      "source_url": "https://cdn.jsdelivr.net/npm/@tabler/icons@3.39.0/icons/outline/world.svg",
+      "source_path": "assets/icons/tabler/outline/world.svg",
+      "sha256": "254cf68112db142d3bd2897b940f70ebbd303671849db0c5e92aec686d205ba2",
+      "license": "MIT",
+      "license_file": "assets/icons/LICENSES/tabler-LICENSE.txt",
+      "style": "outline",
+      "paint": "stroke",
+      "viewbox": "0 0 24 24",
+      "default_stroke_width": 2,
+      "aliases": [
+        "world",
+        "earth",
+        "global"
+      ],
+      "category": "map_geography",
+      "tags": [
+        "earth",
+        "global",
+        "world"
+      ],
+      "status": "approved_starter"
+    },
+    "route": {
+      "source_pack": "tabler",
+      "source_version": "3.39.0",
+      "source_name": "route",
+      "source_url": "https://cdn.jsdelivr.net/npm/@tabler/icons@3.39.0/icons/outline/route.svg",
+      "source_path": "assets/icons/tabler/outline/route.svg",
+      "sha256": "5c8490a69d35079dadfa1824775d0c98f3a10af36df0d3fab3d847c1efaed34d",
+      "license": "MIT",
+      "license_file": "assets/icons/LICENSES/tabler-LICENSE.txt",
+      "style": "outline",
+      "paint": "stroke",
+      "viewbox": "0 0 24 24",
+      "default_stroke_width": 2,
+      "aliases": [
+        "path",
+        "corridor",
+        "journey"
+      ],
+      "category": "map_geography",
+      "tags": [
+        "route",
+        "movement",
+        "path"
+      ],
+      "status": "approved_starter"
+    },
+    "airport": {
+      "source_pack": "tabler",
+      "source_version": "3.39.0",
+      "source_name": "building-airport",
+      "source_url": "https://cdn.jsdelivr.net/npm/@tabler/icons@3.39.0/icons/outline/building-airport.svg",
+      "source_path": "assets/icons/tabler/outline/building-airport.svg",
+      "sha256": "a4891039b283b7e80a3d127f86a53b631a31a6f87f4c2cea9c56cfd1d0d5a7b1",
+      "license": "MIT",
+      "license_file": "assets/icons/LICENSES/tabler-LICENSE.txt",
+      "style": "outline",
+      "paint": "stroke",
+      "viewbox": "0 0 24 24",
+      "default_stroke_width": 2,
+      "aliases": [
+        "terminal",
+        "air_hub",
+        "runway"
+      ],
+      "category": "transport_infrastructure",
+      "tags": [
+        "airport",
+        "aviation",
+        "infrastructure"
+      ],
+      "status": "approved_starter"
+    },
+    "airplane": {
+      "source_pack": "tabler",
+      "source_version": "3.39.0",
+      "source_name": "plane",
+      "source_url": "https://cdn.jsdelivr.net/npm/@tabler/icons@3.39.0/icons/outline/plane.svg",
+      "source_path": "assets/icons/tabler/outline/plane.svg",
+      "sha256": "97759c971a65eb4f4b8be8a9cd8ebe529e4e365531a0d84e8694c1bbba0dcf29",
+      "license": "MIT",
+      "license_file": "assets/icons/LICENSES/tabler-LICENSE.txt",
+      "style": "outline",
+      "paint": "stroke",
+      "viewbox": "0 0 24 24",
+      "default_stroke_width": 2,
+      "aliases": [
+        "plane",
+        "flight",
+        "aviation"
+      ],
+      "category": "transport_infrastructure",
+      "tags": [
+        "aircraft",
+        "flight",
+        "transport"
+      ],
+      "status": "approved_starter"
+    },
+    "ship": {
+      "source_pack": "tabler",
+      "source_version": "3.39.0",
+      "source_name": "ship",
+      "source_url": "https://cdn.jsdelivr.net/npm/@tabler/icons@3.39.0/icons/outline/ship.svg",
+      "source_path": "assets/icons/tabler/outline/ship.svg",
+      "sha256": "8d62dcb5f7637fc9c97ce4cc2492fb98202988d26c633f05a15e8935f34f0a8f",
+      "license": "MIT",
+      "license_file": "assets/icons/LICENSES/tabler-LICENSE.txt",
+      "style": "outline",
+      "paint": "stroke",
+      "viewbox": "0 0 24 24",
+      "default_stroke_width": 2,
+      "aliases": [
+        "boat",
+        "vessel",
+        "cargo_ship",
+        "port"
+      ],
+      "category": "transport_infrastructure",
+      "tags": [
+        "water",
+        "shipping",
+        "trade",
+        "navy"
+      ],
+      "status": "approved_starter"
+    },
+    "anchor": {
+      "source_pack": "tabler",
+      "source_version": "3.39.0",
+      "source_name": "anchor",
+      "source_url": "https://cdn.jsdelivr.net/npm/@tabler/icons@3.39.0/icons/outline/anchor.svg",
+      "source_path": "assets/icons/tabler/outline/anchor.svg",
+      "sha256": "a2ccffe0f7eeca9d5cccf7393e94e114862d54b0b3d25a770cf94906ecee09ee",
+      "license": "MIT",
+      "license_file": "assets/icons/LICENSES/tabler-LICENSE.txt",
+      "style": "outline",
+      "paint": "stroke",
+      "viewbox": "0 0 24 24",
+      "default_stroke_width": 2,
+      "aliases": [
+        "port",
+        "harbor",
+        "dock"
+      ],
+      "category": "transport_infrastructure",
+      "tags": [
+        "port",
+        "maritime",
+        "harbor"
+      ],
+      "status": "approved_starter"
+    },
+    "road": {
+      "source_pack": "tabler",
+      "source_version": "3.39.0",
+      "source_name": "road",
+      "source_url": "https://cdn.jsdelivr.net/npm/@tabler/icons@3.39.0/icons/outline/road.svg",
+      "source_path": "assets/icons/tabler/outline/road.svg",
+      "sha256": "8325f0f0b367ba4800f3e75c7a595a756d505311c6400de7007bb2e66c940d8d",
+      "license": "MIT",
+      "license_file": "assets/icons/LICENSES/tabler-LICENSE.txt",
+      "style": "outline",
+      "paint": "stroke",
+      "viewbox": "0 0 24 24",
+      "default_stroke_width": 2,
+      "aliases": [
+        "highway",
+        "street",
+        "route_road"
+      ],
+      "category": "transport_infrastructure",
+      "tags": [
+        "road",
+        "highway",
+        "infrastructure"
+      ],
+      "status": "approved_starter"
+    },
+    "bridge": {
+      "source_pack": "tabler",
+      "source_version": "3.39.0",
+      "source_name": "building-bridge",
+      "source_url": "https://cdn.jsdelivr.net/npm/@tabler/icons@3.39.0/icons/outline/building-bridge.svg",
+      "source_path": "assets/icons/tabler/outline/building-bridge.svg",
+      "sha256": "58e480327e465dd409114cd5b30c049c05c0fa5e54435d95123fd042182c76ce",
+      "license": "MIT",
+      "license_file": "assets/icons/LICENSES/tabler-LICENSE.txt",
+      "style": "outline",
+      "paint": "stroke",
+      "viewbox": "0 0 24 24",
+      "default_stroke_width": 2,
+      "aliases": [
+        "crossing",
+        "overpass",
+        "span"
+      ],
+      "category": "transport_infrastructure",
+      "tags": [
+        "bridge",
+        "crossing",
+        "infrastructure"
+      ],
+      "status": "approved_starter"
+    },
+    "truck": {
+      "source_pack": "tabler",
+      "source_version": "3.39.0",
+      "source_name": "truck",
+      "source_url": "https://cdn.jsdelivr.net/npm/@tabler/icons@3.39.0/icons/outline/truck.svg",
+      "source_path": "assets/icons/tabler/outline/truck.svg",
+      "sha256": "c7ca6e6d133498e58dc679a5e2dffa950daa6c0440be93729653a5414f463e28",
+      "license": "MIT",
+      "license_file": "assets/icons/LICENSES/tabler-LICENSE.txt",
+      "style": "outline",
+      "paint": "stroke",
+      "viewbox": "0 0 24 24",
+      "default_stroke_width": 2,
+      "aliases": [
+        "freight",
+        "logistics",
+        "cargo"
+      ],
+      "category": "transport_infrastructure",
+      "tags": [
+        "freight",
+        "cargo",
+        "logistics"
+      ],
+      "status": "approved_starter"
+    },
+    "train": {
+      "source_pack": "tabler",
+      "source_version": "3.39.0",
+      "source_name": "train",
+      "source_url": "https://cdn.jsdelivr.net/npm/@tabler/icons@3.39.0/icons/outline/train.svg",
+      "source_path": "assets/icons/tabler/outline/train.svg",
+      "sha256": "a6e6fd7af8d90276a2b4ce618f2c5cce9648552bdee09e86284ed54450745551",
+      "license": "MIT",
+      "license_file": "assets/icons/LICENSES/tabler-LICENSE.txt",
+      "style": "outline",
+      "paint": "stroke",
+      "viewbox": "0 0 24 24",
+      "default_stroke_width": 2,
+      "aliases": [
+        "rail",
+        "railway",
+        "locomotive"
+      ],
+      "category": "transport_infrastructure",
+      "tags": [
+        "rail",
+        "transit",
+        "transport"
+      ],
+      "status": "approved_starter"
+    },
+    "tree": {
+      "source_pack": "tabler",
+      "source_version": "3.39.0",
+      "source_name": "tree",
+      "source_url": "https://cdn.jsdelivr.net/npm/@tabler/icons@3.39.0/icons/outline/tree.svg",
+      "source_path": "assets/icons/tabler/outline/tree.svg",
+      "sha256": "ce74fdecabb13c2bf4ed3949fa4c76d1509c6fed340060c9e944abc7cbadde7a",
+      "license": "MIT",
+      "license_file": "assets/icons/LICENSES/tabler-LICENSE.txt",
+      "style": "outline",
+      "paint": "stroke",
+      "viewbox": "0 0 24 24",
+      "default_stroke_width": 2,
+      "aliases": [
+        "canopy",
+        "forest",
+        "woodland"
+      ],
+      "category": "weather_environment",
+      "tags": [
+        "tree",
+        "canopy",
+        "environment"
+      ],
+      "status": "approved_starter"
+    },
+    "water": {
+      "source_pack": "tabler",
+      "source_version": "3.39.0",
+      "source_name": "droplet",
+      "source_url": "https://cdn.jsdelivr.net/npm/@tabler/icons@3.39.0/icons/outline/droplet.svg",
+      "source_path": "assets/icons/tabler/outline/droplet.svg",
+      "sha256": "75456a33083c68365eea32508c720b4e2e62eb020be43144165a66dee0db2ae5",
+      "license": "MIT",
+      "license_file": "assets/icons/LICENSES/tabler-LICENSE.txt",
+      "style": "outline",
+      "paint": "stroke",
+      "viewbox": "0 0 24 24",
+      "default_stroke_width": 2,
+      "aliases": [
+        "rain",
+        "water_drop",
+        "liquid"
+      ],
+      "category": "weather_environment",
+      "tags": [
+        "water",
+        "rain",
+        "resource"
+      ],
+      "status": "approved_starter"
+    },
+    "rain": {
+      "source_pack": "tabler",
+      "source_version": "3.39.0",
+      "source_name": "cloud-rain",
+      "source_url": "https://cdn.jsdelivr.net/npm/@tabler/icons@3.39.0/icons/outline/cloud-rain.svg",
+      "source_path": "assets/icons/tabler/outline/cloud-rain.svg",
+      "sha256": "3537c1881c44b22eaaf9c91ea183fac52f2fdc6801f9a737bf6560f517affa1e",
+      "license": "MIT",
+      "license_file": "assets/icons/LICENSES/tabler-LICENSE.txt",
+      "style": "outline",
+      "paint": "stroke",
+      "viewbox": "0 0 24 24",
+      "default_stroke_width": 2,
+      "aliases": [
+        "rainfall",
+        "storm_rain",
+        "monsoon"
+      ],
+      "category": "weather_environment",
+      "tags": [
+        "rain",
+        "weather",
+        "storm"
+      ],
+      "status": "approved_starter"
+    },
+    "fire": {
+      "source_pack": "tabler",
+      "source_version": "3.39.0",
+      "source_name": "flame",
+      "source_url": "https://cdn.jsdelivr.net/npm/@tabler/icons@3.39.0/icons/outline/flame.svg",
+      "source_path": "assets/icons/tabler/outline/flame.svg",
+      "sha256": "1b50cf6a41b34134dd19b0229897b9ca0e2f14c74af00475f60404e26e9d9487",
+      "license": "MIT",
+      "license_file": "assets/icons/LICENSES/tabler-LICENSE.txt",
+      "style": "outline",
+      "paint": "stroke",
+      "viewbox": "0 0 24 24",
+      "default_stroke_width": 2,
+      "aliases": [
+        "wildfire",
+        "burn",
+        "heat"
+      ],
+      "category": "weather_environment",
+      "tags": [
+        "fire",
+        "heat",
+        "wildfire"
+      ],
+      "status": "approved_starter"
+    },
+    "warning": {
+      "source_pack": "tabler",
+      "source_version": "3.39.0",
+      "source_name": "alert-triangle",
+      "source_url": "https://cdn.jsdelivr.net/npm/@tabler/icons@3.39.0/icons/outline/alert-triangle.svg",
+      "source_path": "assets/icons/tabler/outline/alert-triangle.svg",
+      "sha256": "1da481d4625bf26c7cd74551aedd925438119c8bd9e1802e5a7f2918e4792734",
+      "license": "MIT",
+      "license_file": "assets/icons/LICENSES/tabler-LICENSE.txt",
+      "style": "outline",
+      "paint": "stroke",
+      "viewbox": "0 0 24 24",
+      "default_stroke_width": 2,
+      "aliases": [
+        "alert",
+        "hazard",
+        "caution"
+      ],
+      "category": "danger_security",
+      "tags": [
+        "warning",
+        "risk",
+        "danger"
+      ],
+      "status": "approved_starter"
+    },
+    "siren": {
+      "source_pack": "tabler",
+      "source_version": "3.39.0",
+      "source_name": "alarm",
+      "source_url": "https://cdn.jsdelivr.net/npm/@tabler/icons@3.39.0/icons/outline/alarm.svg",
+      "source_path": "assets/icons/tabler/outline/alarm.svg",
+      "sha256": "3137d5323fc920c2fe33503431b861ae39ad098aa9726c03a2abda5a9c9155b3",
+      "license": "MIT",
+      "license_file": "assets/icons/LICENSES/tabler-LICENSE.txt",
+      "style": "outline",
+      "paint": "stroke",
+      "viewbox": "0 0 24 24",
+      "default_stroke_width": 2,
+      "aliases": [
+        "alarm",
+        "emergency",
+        "police"
+      ],
+      "category": "danger_security",
+      "tags": [
+        "alarm",
+        "emergency",
+        "alert"
+      ],
+      "status": "approved_starter"
+    },
+    "shield": {
+      "source_pack": "tabler",
+      "source_version": "3.39.0",
+      "source_name": "shield",
+      "source_url": "https://cdn.jsdelivr.net/npm/@tabler/icons@3.39.0/icons/outline/shield.svg",
+      "source_path": "assets/icons/tabler/outline/shield.svg",
+      "sha256": "1c87b94ec72992bb217ca6741f1f372058183c0158891df0b6b6dae00b92cb06",
+      "license": "MIT",
+      "license_file": "assets/icons/LICENSES/tabler-LICENSE.txt",
+      "style": "outline",
+      "paint": "stroke",
+      "viewbox": "0 0 24 24",
+      "default_stroke_width": 2,
+      "aliases": [
+        "security",
+        "defense",
+        "protection"
+      ],
+      "category": "danger_security",
+      "tags": [
+        "security",
+        "defense",
+        "protection"
+      ],
+      "status": "approved_starter"
+    },
+    "factory": {
+      "source_pack": "tabler",
+      "source_version": "3.39.0",
+      "source_name": "building-factory",
+      "source_url": "https://cdn.jsdelivr.net/npm/@tabler/icons@3.39.0/icons/outline/building-factory.svg",
+      "source_path": "assets/icons/tabler/outline/building-factory.svg",
+      "sha256": "475084c19080e451282072d25b4c963f75aef9333d100049645c0f3547d56982",
+      "license": "MIT",
+      "license_file": "assets/icons/LICENSES/tabler-LICENSE.txt",
+      "style": "outline",
+      "paint": "stroke",
+      "viewbox": "0 0 24 24",
+      "default_stroke_width": 2,
+      "aliases": [
+        "industry",
+        "plant",
+        "manufacturing"
+      ],
+      "category": "urban_economy",
+      "tags": [
+        "factory",
+        "industry",
+        "economy"
+      ],
+      "status": "approved_starter"
+    },
+    "building": {
+      "source_pack": "tabler",
+      "source_version": "3.39.0",
+      "source_name": "building",
+      "source_url": "https://cdn.jsdelivr.net/npm/@tabler/icons@3.39.0/icons/outline/building.svg",
+      "source_path": "assets/icons/tabler/outline/building.svg",
+      "sha256": "be3607d6fae69ab2a0d10ac6a4676d0155376f63eed5422c4ca002ce48232836",
+      "license": "MIT",
+      "license_file": "assets/icons/LICENSES/tabler-LICENSE.txt",
+      "style": "outline",
+      "paint": "stroke",
+      "viewbox": "0 0 24 24",
+      "default_stroke_width": 2,
+      "aliases": [
+        "office",
+        "structure",
+        "place"
+      ],
+      "category": "urban_economy",
+      "tags": [
+        "building",
+        "city",
+        "urban"
+      ],
+      "status": "approved_starter"
+    },
+    "cash": {
+      "source_pack": "tabler",
+      "source_version": "3.39.0",
+      "source_name": "cash",
+      "source_url": "https://cdn.jsdelivr.net/npm/@tabler/icons@3.39.0/icons/outline/cash.svg",
+      "source_path": "assets/icons/tabler/outline/cash.svg",
+      "sha256": "786e42909e32cfc4c111e34283670caf00938f3700276d06b4f464b5ef0a7271",
+      "license": "MIT",
+      "license_file": "assets/icons/LICENSES/tabler-LICENSE.txt",
+      "style": "outline",
+      "paint": "stroke",
+      "viewbox": "0 0 24 24",
+      "default_stroke_width": 2,
+      "aliases": [
+        "money",
+        "revenue",
+        "currency"
+      ],
+      "category": "urban_economy",
+      "tags": [
+        "money",
+        "economy",
+        "finance"
+      ],
+      "status": "approved_starter"
+    },
+    "users": {
+      "source_pack": "tabler",
+      "source_version": "3.39.0",
+      "source_name": "users",
+      "source_url": "https://cdn.jsdelivr.net/npm/@tabler/icons@3.39.0/icons/outline/users.svg",
+      "source_path": "assets/icons/tabler/outline/users.svg",
+      "sha256": "3d057f5446ae6a5309ab780b28bceefe708a5923e4b4872b31bf0cc616dd514d",
+      "license": "MIT",
+      "license_file": "assets/icons/LICENSES/tabler-LICENSE.txt",
+      "style": "outline",
+      "paint": "stroke",
+      "viewbox": "0 0 24 24",
+      "default_stroke_width": 2,
+      "aliases": [
+        "people",
+        "population",
+        "group"
+      ],
+      "category": "people_demographics",
+      "tags": [
+        "people",
+        "population",
+        "demographics"
+      ],
+      "status": "approved_starter"
+    },
+    "chart_bar": {
+      "source_pack": "tabler",
+      "source_version": "3.39.0",
+      "source_name": "chart-bar",
+      "source_url": "https://cdn.jsdelivr.net/npm/@tabler/icons@3.39.0/icons/outline/chart-bar.svg",
+      "source_path": "assets/icons/tabler/outline/chart-bar.svg",
+      "sha256": "aee2f7a2d7574c1025cf9b344de833c65575d58284d8caa7dceece5a4127ce9c",
+      "license": "MIT",
+      "license_file": "assets/icons/LICENSES/tabler-LICENSE.txt",
+      "style": "outline",
+      "paint": "stroke",
+      "viewbox": "0 0 24 24",
+      "default_stroke_width": 2,
+      "aliases": [
+        "bar_chart",
+        "ranking",
+        "compare"
+      ],
+      "category": "data_statistics",
+      "tags": [
+        "chart",
+        "comparison",
+        "ranking"
+      ],
+      "status": "approved_starter"
+    },
+    "chart_line": {
+      "source_pack": "tabler",
+      "source_version": "3.39.0",
+      "source_name": "chart-line",
+      "source_url": "https://cdn.jsdelivr.net/npm/@tabler/icons@3.39.0/icons/outline/chart-line.svg",
+      "source_path": "assets/icons/tabler/outline/chart-line.svg",
+      "sha256": "d1e023074d60edd5ceac333bd0a7fca74168db18b3cc3179076e8b23de8f265a",
+      "license": "MIT",
+      "license_file": "assets/icons/LICENSES/tabler-LICENSE.txt",
+      "style": "outline",
+      "paint": "stroke",
+      "viewbox": "0 0 24 24",
+      "default_stroke_width": 2,
+      "aliases": [
+        "trend",
+        "timeline_data",
+        "growth"
+      ],
+      "category": "data_statistics",
+      "tags": [
+        "chart",
+        "trend",
+        "growth"
+      ],
+      "status": "approved_starter"
+    }
+  },
+  "aliases": {
+    "air_hub": "airport",
+    "alarm": "siren",
+    "alert": "warning",
+    "atlas": "map",
+    "aviation": "airplane",
+    "bar_chart": "chart_bar",
+    "boat": "ship",
+    "burn": "fire",
+    "canopy": "tree",
+    "cargo": "truck",
+    "cargo_ship": "ship",
+    "caution": "warning",
+    "compare": "chart_bar",
+    "corridor": "route",
+    "crossing": "bridge",
+    "currency": "cash",
+    "defense": "shield",
+    "dock": "anchor",
+    "earth": "globe",
+    "emergency": "siren",
+    "flight": "airplane",
+    "forest": "tree",
+    "freight": "truck",
+    "geography": "map",
+    "global": "globe",
+    "group": "users",
+    "growth": "chart_line",
+    "harbor": "anchor",
+    "hazard": "warning",
+    "heat": "fire",
+    "highway": "road",
+    "industry": "factory",
+    "journey": "route",
+    "liquid": "water",
+    "location": "map_pin",
+    "locomotive": "train",
+    "logistics": "truck",
+    "manufacturing": "factory",
+    "marker": "map_pin",
+    "money": "cash",
+    "monsoon": "rain",
+    "office": "building",
+    "overpass": "bridge",
+    "path": "route",
+    "people": "users",
+    "pin": "map_pin",
+    "place": "building",
+    "plane": "airplane",
+    "plant": "factory",
+    "police": "siren",
+    "population": "users",
+    "port": "anchor",
+    "protection": "shield",
+    "rail": "train",
+    "railway": "train",
+    "rain": "water",
+    "rainfall": "rain",
+    "ranking": "chart_bar",
+    "region": "map",
+    "revenue": "cash",
+    "route_road": "road",
+    "runway": "airport",
+    "security": "shield",
+    "span": "bridge",
+    "storm_rain": "rain",
+    "street": "road",
+    "structure": "building",
+    "terminal": "airport",
+    "timeline_data": "chart_line",
+    "trend": "chart_line",
+    "vessel": "ship",
+    "water_drop": "water",
+    "wildfire": "fire",
+    "woodland": "tree",
+    "world": "globe"
+  }
+}
