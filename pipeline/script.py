@@ -142,6 +142,38 @@ _BEAT_PROMPT = textwrap.dedent("""\
     Subject:     __SUBJECT__
     Hook hint:   __HOOK_TEXT__
 
+    NARRATIVE ARC (CRITICAL — this separates viral from forgettable):
+    This video must tell a SINGLE STORY. The viewer should be able to complete
+    the sentence "This video is about how ___" in one clause after watching.
+    Bad: "here are interesting facts about Tokyo's lights"
+    Good: "Tokyo is so addicted to artificial light that it erased the night sky"
+
+    Story structure:
+      HOOK  → Drop the viewer into the mystery or shock. No setup.
+      ESTABLISH → One grounding image. The scale of what we're dealing with.
+      FACT beats → Each must ADVANCE the thesis. Ask: "Does this fact make the
+                   story bigger, darker, stranger, or more ironic?" If not, cut it.
+      CONTRAST → The pivot. Introduce the price, the paradox, or the hidden cost.
+      PAYOFF → The emotional landing. What does this mean for people who live here?
+      EXIT → Leave them unsettled or curious enough to comment.
+
+    CONNECTIVE TISSUE (required between every pair of beats):
+    Write each narration line so it answers an implicit question the previous
+    beat posed. Use openers like:
+      "But that's not the strangest part —"
+      "And yet —"
+      "Which is why —"
+      "What nobody mentions —"
+      "The reason it started —"
+      "Here's what it costs —"
+    Never write two consecutive beats that could be reordered without losing meaning.
+    If you can swap beat 5 and beat 6 and nothing breaks, one of them is wrong.
+
+    PACING VARIATION (required):
+    Never use the same `duration_sec` for more than 2 consecutive beats.
+    Punchy revelations: 2.0-2.5s. Context and atmosphere: 3.0-3.5s.
+    The rhythm should feel like breathing — short-short-long, not flat.
+
     PACING RULES (HARD CONSTRAINTS):
     - Total runtime: __TARGET__s ±3s
     - Each beat: __BMIN__-__BMAX__ seconds
@@ -151,10 +183,14 @@ _BEAT_PROMPT = textwrap.dedent("""\
 
     HOOK RULES (CRITICAL):
     - `hook_text` MUST be ≤ 7 words. This is burned as large on-screen text.
-    - Use a number, superlative, or mystery trigger. Examples:
-      "This town has been burning since 1962"
-      "700 deaths in one lake"
-      "The most toxic town in America"
+    - Use a number, superlative, mystery trigger, or paradox. Patterns:
+        MYSTERY:   "This city hasn't seen stars since 1964"
+        NUMBER:    "40 million people. Zero stars."
+        PARADOX:   "The world's brightest city is going dark"
+        ACCUSATION: "Tokyo stole the night sky"
+        SUPERLATIVE: "700 deaths in one lake"
+    - The hook should PROMISE the rest of the video. Viewers should think
+      "wait, how?" or "that can't be right" — not just "cool fact".
     - Do NOT write a full question. Do NOT exceed 7 words.
 
     NARRATION LENGTH BUDGET (CRITICAL — voice consistency required):
@@ -275,9 +311,15 @@ _BEAT_PROMPT = textwrap.dedent("""\
       heatmaps, bar charts, border shifts, and stat cards automatically from narration keywords.
 
     NARRATION RULES:
-    - First beat (HOOK): the hook text, extended to a full sentence. Hooks viewers in <2s.
-    - EXIT beat: a question or cliffhanger that makes them rewatch or comment.
-    - Every beat flows into the next — no orphan sentences.
+    - First beat (HOOK): expand the hook_text into one vivid sentence.
+      It must land in the first 2 seconds and make the viewer physically pause.
+    - EXIT beat: do NOT ask a yes/no question. Instead, leave an unresolved
+      tension, drop a reveal that reframes everything, or issue a challenge:
+        UNRESOLVED: "And they're about to turn them all off."
+        REVEAL: "The darkest place in Tokyo? A 200-year-old garden."
+        CHALLENGE: "Name a city that's brighter. You can't."
+      The exit line should make people want to comment OR immediately rewatch.
+    - Every beat flows into the next with implicit connective logic.
     - Place-specific, not generic. Name real neighborhoods, rivers, districts.
 
     FACTUAL ACCURACY (HARD CONSTRAINTS — treat as non-negotiable):
@@ -438,7 +480,23 @@ def generate(prompt: str) -> Dict[str, Any]:
             visual["strictness"] = "loose"
             visual.pop("callouts", None)
 
+
+    # Pacing variation enforcement: break monotonous same-duration runs.
+    # The LLM is instructed to vary pacing but sometimes ignores it. Never
+    # allow 3+ consecutive beats with the same duration_sec — it kills rhythm.
+    for i in range(2, len(beats)):
+        d0 = float(beats[i - 2].get("duration_sec") or BEAT_MIN_SEC)
+        d1 = float(beats[i - 1].get("duration_sec") or BEAT_MIN_SEC)
+        d2 = float(beats[i].get("duration_sec") or BEAT_MIN_SEC)
+        if abs(d0 - d1) < 0.05 and abs(d1 - d2) < 0.05:
+            # Shorten the middle beat if there's room, else lengthen it.
+            if d1 > BEAT_MIN_SEC + 0.5:
+                beats[i - 1]["duration_sec"] = BEAT_MIN_SEC
+            elif d1 < BEAT_MAX_SEC - 0.5:
+                beats[i - 1]["duration_sec"] = BEAT_MAX_SEC
+
     total = sum(float(b["duration_sec"]) for b in beats)
+
 
     return {
         "topic_class": tc,

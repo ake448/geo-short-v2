@@ -52,14 +52,36 @@ def generate_ass(
     if not words:
         return ""
 
-    beat_ends: List[float] = []
+    # Build a list of (audio_start, audio_end, visual_kind) tuples from beats so we
+    # can (a) clamp captions to real audio boundaries and (b) reposition captions
+    # above infographic panels on the appropriate beats.
+    _INFOGRAPHIC_KINDS = {"dynamic_infographic", "density_infographic"}
+    beat_windows: List[tuple[float, float, str]] = []
     cursor = 0.0
     for beat in beats or []:
         try:
-            cursor += max(0.0, float(beat.get("duration_sec") or 0.0))
+            dur = max(0.0, float(beat.get("duration_sec") or 0.0))
         except (TypeError, ValueError):
-            continue
-        beat_ends.append(cursor)
+            dur = 0.0
+        # Prefer real audio timestamps produced by Whisper alignment; fall back
+        # to cumulative duration_sec so this works even without a VO pass.
+        a_start = beat.get("audio_start")
+        a_end = beat.get("audio_end")
+        if a_start is not None and a_end is not None:
+            try:
+                win_start = float(a_start)
+                win_end = float(a_end)
+            except (TypeError, ValueError):
+                win_start = cursor
+                win_end = cursor + dur
+        else:
+            win_start = cursor
+            win_end = cursor + dur
+        kind = str((beat.get("visual") or {}).get("kind") or "").strip().lower()
+        beat_windows.append((win_start, win_end, kind))
+        cursor += dur
+
+    beat_ends: List[float] = [w[1] for w in beat_windows]
 
     def _caption_end_limit(start: float) -> float | None:
         if not beat_ends:
@@ -69,6 +91,13 @@ def generate_ass(
             if start < end - guard:
                 return max(0.0, end - guard)
         return None
+
+    def _caption_kind_at(start: float) -> str:
+        """Return the visual kind of the beat active at `start` seconds."""
+        for win_start, win_end, kind in beat_windows:
+            if win_start <= start < win_end:
+                return kind
+        return ""
 
     ass = (
         "[Script Info]\n"
@@ -176,9 +205,9 @@ def generate_ass(
                     prefix = " "
                 elif j == split_idx:
                     prefix = "\\N"
-                
-                fade_ms = 150 # soft fade duration in ms
-                
+
+                fade_ms = 150  # soft fade duration in ms
+
                 if j < i:
                     # Already-spoken word: fully visible
                     out_str += prefix + t
@@ -189,7 +218,18 @@ def generate_ass(
                     # Upcoming word: invisible
                     out_str += prefix + "{\\alpha&HFF&}" + t + "{\\alpha&H00&}"
 
-            anim = "{\\an2}"
+            # Reposition captions above infographic panels to avoid overlap.
+            # dynamic_infographic / density_infographic panels occupy roughly the
+            # bottom 700px; push captions up to ~55% height (y ≈ 1056) on those
+            # beats. All other beats use the default bottom-center (\an2).
+            beat_kind = _caption_kind_at(start)
+            if beat_kind in _INFOGRAPHIC_KINDS:
+                # \pos(cx, cy) overrides MarginV; \an8 = top-center anchor
+                cx = OUT_W // 2
+                cy = int(OUT_H * 0.55)  # ~1056px — above the infographic panel
+                anim = f"{{\\an8\\pos({cx},{cy})}}"
+            else:
+                anim = "{\\an2}"
             ass += f"Dialogue: 0,{start_t},{end_t},Default,,0,0,0,,{anim}{out_str}\n"
 
     return ass

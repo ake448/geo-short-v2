@@ -1,17 +1,20 @@
+# Runtime data (entire directory)
+data/
+
+# Output
+output/
+
+# Python
 __pycache__/
 *.pyc
 *.pyo
+.venv/
+
+# Env
 .env
 .env.*
 
-# Cached tiles and run output
-pipeline/data/tiles/
-pipeline/data/wiki_images/
-runs/
-output/
-cache/
-
-# Temp files
+# Temp
 *.part
 *.tmp
 _tmp_*

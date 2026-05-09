@@ -218,7 +218,13 @@ def main(argv: list[str] | None = None) -> int:
 
     # ─── Step 7b: burn captions ──────────────────────────────────────────────
     print(f"\n[step 7b] burning captions...")
-    hook_dur = 0.0
+    # Derive hook exclusion window from the first beat's actual audio span.
+    # This suppresses Whisper word captions during the large hook text overlay.
+    # Falls back to 0.0 if Whisper alignment didn't annotate audio_end yet.
+    first_beat = (script.get("beats") or [{}])[0]
+    hook_dur = float(first_beat.get("audio_end") or 0.0)
+    if hook_dur > 0.0:
+        hook_dur += 0.30  # small buffer so captions don't re-appear mid-hook
     ass_text = captions.generate_ass(
         vo_result.whisper_segments,
         hook_duration=hook_dur,

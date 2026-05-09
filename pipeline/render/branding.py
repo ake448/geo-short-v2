@@ -11,14 +11,14 @@ from typing import Any
 import numpy as np
 from PIL import Image, ImageDraw
 
-from ..config import DATA_DIR, FPS, OUT_H, OUT_W, ROOT
+from ..config import DATA_DIR, FPS, OUT_H, OUT_W, ROOT, BRAND_LOGO
 
 
-_LOGO_SRC = ROOT / "Urban Vectors logo on purple gradient.png"
+_LOGO_SRC = BRAND_LOGO
 if not _LOGO_SRC.exists():
     raise FileNotFoundError(
         f"Branding logo asset not found: {_LOGO_SRC}. "
-        "Expected 'Urban Vectors logo on purple gradient.png' at the repo root."
+        "Expected logo.png in assets/branding/"
     )
 
 _CACHE_DIR = DATA_DIR / "branding_cache"
@@ -30,8 +30,8 @@ WATERMARK_HEIGHT = 100
 WATERMARK_MARGIN = 20
 
 _ANIMATED_WATERMARK_CANDIDATES = [
-    ROOT / "assets" / "watermark_overlays" / "Smoky_Unveiling_Logo_Reveal_0p_watermark.mov",
-    ROOT / "assets" / "watermark_overlays" / "1d406e4f9ca744b41449364a6b3f1514_watermark.mov",
+    ROOT / "assets" / "watermarks" / "Smoky_Unveiling_Logo_Reveal_0p_watermark.mov",
+    ROOT / "assets" / "watermarks" / "1d406e4f9ca744b41449364a6b3f1514_watermark.mov",
 ]
 
 

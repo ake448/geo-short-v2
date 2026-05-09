@@ -51,16 +51,26 @@ def _float_env(name: str, default: float) -> float:
         return default
 
 # ─── Paths ────────────────────────────────────────────────────────────────────
-RUNS_DIR = ROOT / "runs_v2"
-DATA_DIR = V2_ROOT / "data"
+# Static assets (version-controlled, read-only at runtime)
+ASSETS_DIR = ROOT / "assets"
+FONTS_DIR = Path(os.environ.get("GEO_FONTS_DIR", str(ASSETS_DIR / "fonts"))).resolve()
+MUSIC_DIR = Path(os.environ.get("GEO_MUSIC_DIR", str(ASSETS_DIR / "music"))).resolve()
+SFX_DIR = ASSETS_DIR / "sfx"
+VOICES_DIR = ASSETS_DIR / "voices"
+LUTS_DIR = ASSETS_DIR / "luts"
+BRAND_LOGO = ASSETS_DIR / "branding" / "logo.png"
+
+# Runtime data (generated, cached, gitignored)
+DATA_DIR = ROOT / "data"
+RUNS_DIR = DATA_DIR / "runs"
 CACHE_DB = DATA_DIR / "cache.db"
-CHANNEL_ALLOWLIST = DATA_DIR / "channel_allowlist.json"
-CHANNEL_BLOCKLIST = DATA_DIR / "channel_blocklist.json"
-FONTS_DIR = Path(os.environ.get("GEO_FONTS_DIR", str(ROOT.parent / "fonts"))).resolve()
-MUSIC_DIR = Path(os.environ.get("GEO_MUSIC_DIR", str(ROOT / "music"))).resolve()
-SFX_DIR = ROOT / "sfx"
+
+# Source-controlled reference data (inside the package)
+SEEDDATA_DIR = V2_ROOT / "seeddata"
+CHANNEL_ALLOWLIST = SEEDDATA_DIR / "channel_allowlist.json"
+CHANNEL_BLOCKLIST = SEEDDATA_DIR / "channel_blocklist.json"
+
 DEFAULT_MUSIC_FILE = "delosound-nature-documentary-442828.mp3"
-VOICES_DIR = ROOT.parent / "voices"
 FINAL_EXPORT_DIR = Path(
     os.environ.get("GEO_FINAL_EXPORT_DIR", "").strip() or str(ROOT / "output" / "final_videos_v2")
 ).resolve()

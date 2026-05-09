@@ -28,7 +28,7 @@ def synthesize(script: Dict, run_dir: Path,
     """Generate voiceover.mp3 + whisper alignment for the script.
     Supports multi-voice beats if "voice" field is present in beats.
     """
-    import generate_attenborough_audio as tts_module
+    from ..providers import qwen_tts as tts_module
     import subprocess
     import tempfile
     import shutil
@@ -470,7 +470,15 @@ def _update_beat_durations_from_words(
             if next_span is not None:
                 next_start = float(next_span[0])
                 break
-        visual_end = next_start if next_start is not None and next_start > start else word_end + 0.30
+        # Cap dead-air hold: never extend the visual clip more than 0.6s past
+        # the last spoken word. Previously, extending to next_start could create
+        # 1-2s of silence at the end of a beat where the clip played but nothing
+        # was being said.
+        _MAX_POST_SPEECH_GAP = 0.6
+        if next_start is not None and next_start > start:
+            visual_end = min(next_start, word_end + _MAX_POST_SPEECH_GAP)
+        else:
+            visual_end = word_end + 0.30
         visual_end = max(visual_end, word_end + 0.08)
         dur = max(2.0, visual_end - start)
         beat["audio_start"] = round(start, 3)
